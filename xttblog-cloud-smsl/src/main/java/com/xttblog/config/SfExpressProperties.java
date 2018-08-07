@@ -12,7 +12,6 @@ import java.beans.ConstructorProperties;
  * @author xtt
  * @date 2018/8/6 下午1:21
  */
-@Component
 public class SfExpressProperties {
 
     @Value("${sf.server.url}")
