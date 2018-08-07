@@ -13,7 +13,9 @@
 ##spring:
 ##  application:
 ##    name: xttblog-eureka-server
-
+spring:
+  profiles:
+    active: three
 ---
 spring:
   application:

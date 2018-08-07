@@ -8,6 +8,9 @@
       <list>
         <option value="$PROJECT_DIR$/xttblog-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/xttblog-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/xttblog-cloud-smsl/pom.xml" />
+        <option value="$PROJECT_DIR$/xttblog-eureka-server-two/pom.xml" />
+        <option value="$PROJECT_DIR$/xttblog-eureka-server-three/pom.xml" />
       </list>
     </option>
   </component>
