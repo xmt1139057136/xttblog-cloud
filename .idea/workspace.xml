@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13bd881b-4e77-4c7e-a677-85dc1565262b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/SmslApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/config/SfExpressProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfCancelSailOrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfCancelSailOrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfDetailItemIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfDetailItemOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfExpressStockRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfExpressStockResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfHeaderInStockRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfHeaderStockOutRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfReserveField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfStockOutReserveField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/util/XmlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/src/test/java/com/xttblog/xpath/XStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/xttblog-cloud-smsl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-eureka-server-three/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-eureka-server-three/src/main/java/com/xttblog/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-eureka-server-three/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-eureka-server-three/xttblog-eureka-server-three.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-eureka-server-two/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-eureka-server-two/src/main/java/com/xttblog/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-eureka-server-two/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xttblog-eureka-server-two/xttblog-eureka-server-two.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xttblog-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xttblog-eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xttblog-eureka-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xttblog-eureka-server/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xttblog-eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/xttblog-eureka-client/target/" />
@@ -136,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xttblog-eureka-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="279">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -260,7 +227,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="793" />
@@ -298,7 +265,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533607102556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533609031012" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -407,12 +374,12 @@
       <workItem from="1533446047228" duration="3174000" />
       <workItem from="1533532296863" duration="1541000" />
       <workItem from="1533535363670" duration="16809000" />
-      <workItem from="1533604914321" duration="2138000" />
+      <workItem from="1533604914321" duration="3110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23911000" />
+    <option name="totallyTimeSpent" value="24883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,11 +391,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="793" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="793" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24320458" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24320458" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -441,7 +408,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.26086956" />
       <window_info anchor="bottom" id="Run" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" visible="true" weight="0.40117994" />
+      <window_info active="true" anchor="bottom" id="Debug" order="6" visible="true" weight="0.40117994" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.3289855" />
@@ -764,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xttblog-eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="279">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
