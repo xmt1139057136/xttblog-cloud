@@ -1,43 +1,42 @@
 package com.xttblog.xpath;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 import com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder;
 import com.xttblog.model.SfDetailItemOut;
 import com.xttblog.model.SfExpressStockRequest;
 import com.xttblog.model.SfHeaderStockOutRequest;
-import com.xttblog.util.XmlUtil;
-import org.dom4j.Attribute;
-import org.dom4j.Document;
-import org.dom4j.Element;
-import org.dom4j.io.SAXReader;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.util.MultiValueMap;
+import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * XpathTest
+ * RestTemplateTest
  *
  * @author xtt
- * @date 2018/8/6 下午4:01
+ * @date 2018/8/7 上午11:17
  */
-public class XStreamTest {
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+public class RestTemplateTest {
 
     @Autowired
-    private RestTemplate restTemplate;
+    public TestRestTemplate restTemplate;
 
-    public static void main(String[] args) throws Exception{
-
+    public String xmlRequest(){
         SfExpressStockRequest<SfHeaderStockOutRequest, SfDetailItemOut> request = new SfExpressStockRequest();
         request.setCheckword("QHCS-01");
 
@@ -80,31 +79,22 @@ public class XStreamTest {
 
         String xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n" + xStream.toXML(request);
 
-        System.out.println(xml);
+        System.out.println("request xml : " + xml);
 
-        XStreamTest test = new XStreamTest();
-//        test.restTemplate.postForObject("http://scs-drp-core-out.sit.sf-express.com:3580/BspToOms", );
-//
-//        HttpHeaders headers = new HttpHeaders();
-//        headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
-//
-//        MultiValueMap<String, String> map= new LinkedMultiValueMap<String, String>();
-//        map.add("email", "first.last@example.com");
-//
-//        HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<MultiValueMap<String, String>>(map, headers);
+        return  xml;
+    }
 
+    @Test
+    public void testPost(){
         String url = "http://scs-drp-core-out.sit.sf-express.com:3580/BspToOms";
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_XML);
 
-        HttpEntity<String> entity = new HttpEntity<>(xml, headers);
+        HttpEntity<String> entity = new HttpEntity<>(xmlRequest(), headers);
 
-        ResponseEntity<String> response = test.restTemplate.postForEntity( url, entity , String.class );
+        ResponseEntity<String> response = restTemplate.postForEntity( url, entity , String.class );
 
-        System.out.println(response.getBody());
-
-        String strXml = "";
-
+        System.out.println("response xml : " + response.getBody());
     }
 }
