@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/xttblog-clooud.iml" filepath="$PROJECT_DIR$/.idea/xttblog-clooud.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-consumer/xttblog-cloud-consumer.iml" filepath="$PROJECT_DIR$/xttblog-cloud-consumer/xttblog-cloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-feign/xttblog-cloud-feign.iml" filepath="$PROJECT_DIR$/xttblog-cloud-feign/xttblog-cloud-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-producer/xttblog-cloud-producer.iml" filepath="$PROJECT_DIR$/xttblog-cloud-producer/xttblog-cloud-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-smsl/xttblog-cloud-smsl.iml" filepath="$PROJECT_DIR$/xttblog-cloud-smsl/xttblog-cloud-smsl.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-eureka-client/xttblog-eureka-client.iml" filepath="$PROJECT_DIR$/xttblog-eureka-client/xttblog-eureka-client.iml" />

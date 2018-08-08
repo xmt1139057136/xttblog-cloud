@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/xttblog-cloud-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/xttblog-cloud-producer/pom.xml" />
         <option value="$PROJECT_DIR$/xttblog-feign-github/pom.xml" />
+        <option value="$PROJECT_DIR$/xttblog-cloud-feign/pom.xml" />
       </list>
     </option>
   </component>
