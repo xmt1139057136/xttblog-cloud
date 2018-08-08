@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/xttblog-cloud-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xttblog-cloud-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-cloud-smsl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-eureka-server-three" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-eureka-server-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xttblog-feign-github" charset="UTF-8" />
   </component>
 </project>
