@@ -16,8 +16,8 @@ import java.util.List;
  * @author xtt
  * @date 2018/8/8 下午2:11
  */
-@FeignClient(value = "xttblog-cloud-producer", configuration = XttblogFeignConfiguration.class)
-//@FeignClient(name = "xttblog-cloud-producer") 和上面的意思一样
+@FeignClient(value = "com.xttblog-cloud-producer", configuration = XttblogFeignConfiguration.class)
+//@FeignClient(name = "com.xttblog-cloud-producer") 和上面的意思一样
 public interface FeignService {
     @RequestMapping(value = "/cal/add")
     public String add(@RequestParam(value="a") Integer a, @RequestParam("b") Integer b);

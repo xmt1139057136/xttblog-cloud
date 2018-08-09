@@ -1,4 +1,4 @@
-package com.xttblog.controller.service;
+package com.xttblog.service;
 
 /**
  * CalService

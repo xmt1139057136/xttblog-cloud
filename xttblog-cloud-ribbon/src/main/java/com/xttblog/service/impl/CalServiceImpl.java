@@ -1,6 +1,6 @@
-package com.xttblog.controller.service.impl;
+package com.xttblog.service.impl;
 
-import com.xttblog.controller.service.CalService;
+import com.xttblog.service.CalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
@@ -24,13 +24,13 @@ public class CalServiceImpl implements CalService {
 
     @Override
     public Integer add(Integer a, Integer b) {
-        String reqURL = "http://xttblog-cloud-producer/cal/add?a=" + a + "&b=" + b;
+        String reqURL = "http://com.xttblog-cloud-producer/cal/add?a=" + a + "&b=" + b;
         test();
         return restTemplate.getForEntity(reqURL, Integer.class).getBody();
     }
 
     private void test(){
-        ServiceInstance serviceInstance = loadBalancerClient.choose("xttblog-cloud-producer");
+        ServiceInstance serviceInstance = loadBalancerClient.choose("com.xttblog-cloud-producer");
         System.out.println("Host：" + serviceInstance.getHost()
                 + "，ServiceId：" + serviceInstance.getServiceId()
                 + "，Port：" + serviceInstance.getPort());

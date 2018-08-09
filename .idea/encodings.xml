@@ -13,5 +13,6 @@
     <file url="file://$PROJECT_DIR$/xttblog-eureka-server-two" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-feign-github" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-feign-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xttblog-ribbon-hystrix" charset="UTF-8" />
   </component>
 </project>
