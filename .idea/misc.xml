@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/xttblog-cloud-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/xttblog-cloud-producer2/pom.xml" />
         <option value="$PROJECT_DIR$/xttblog-feign-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/xttblog-ribbon-hystrix/pom.xml" />
       </list>
     </option>
   </component>
