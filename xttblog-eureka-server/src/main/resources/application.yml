@@ -34,7 +34,7 @@ eureka:
 ---
 spring:
   application:
-    name: spring-cloud-eureka
+    name: xttblog-eureka-server
   profiles: two
 server:
   port: 8762
@@ -49,7 +49,7 @@ eureka:
 ---
 spring:
   application:
-    name: spring-cloud-eureka
+    name: xttblog-eureka-server
   profiles: three
 server:
   port: 8763

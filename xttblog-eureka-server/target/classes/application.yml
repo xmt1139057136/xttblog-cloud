@@ -12,14 +12,14 @@
 ##
 ##spring:
 ##  application:
-##    name: xttblog-eureka-server
+##    name: com.xttblog-eureka-server
 spring:
   profiles:
     active: one
 ---
 spring:
   application:
-    name: xttblog-eureka-server
+    name: com.xttblog-eureka-server
   profiles: one
 server:
   port: 8761

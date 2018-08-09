@@ -10,4 +10,4 @@ eureka:
 
 spring:
   application:
-    name: xttblog-cloud-producer
+    name: com.xttblog-cloud-producer
