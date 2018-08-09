@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13bd881b-4e77-4c7e-a677-85dc1565262b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_4_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-producer2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-producer2/src/main/java/xttblog/XttblogProducerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-producer2/src/main/java/xttblog/controller/CalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-producer2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-producer2/xttblog-cloud-producer2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/RibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/controller/RibbonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/controller/service/CalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/controller/service/impl/CalServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xttblog-cloud-ribbon/xttblog-cloud-ribbon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/config/SfExpressProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/config/SfExpressProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/model/SfDetailItemIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/model/SfDetailItemIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/model/SfDetailItemOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/model/SfDetailItemOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/model/SfDetailItemReserveField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/model/SfExpressStock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/model/SfHeaderInStockRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/model/SfHeaderInStockRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xttblog-cloud-smsl/target/classes/com/xttblog/model/SfHeaderOutStockRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xttblog-cloud-smsl/target/test-classes/com/xttblog/xpath/XStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/xttblog-cloud-smsl/target/test-classes/com/xttblog/xpath/XStreamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xttblog-eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/xttblog-eureka-client/target/" />
@@ -82,7 +86,7 @@
     <session id="-263103993">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.opened" value="2" />
@@ -91,17 +95,17 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="35" />
-          <entry key="xml" value="8" />
-          <entry key="yml" value="5" />
+          <entry key="java" value="41" />
+          <entry key="xml" value="9" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="35" />
-          <entry key="XML" value="8" />
-          <entry key="YAML" value="5" />
+          <entry key="JAVA" value="41" />
+          <entry key="XML" value="9" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -125,28 +129,41 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xttblog-cloud-producer/pom.xml">
+        <entry file="file://$PROJECT_DIR$/xttblog-eureka-server/src/main/java/com/xttblog/EurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="35" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xttblog-cloud-consumer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="190">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xttblog-cloud-consumer/src/main/java/com/xttblog/controller/ConsumerController.java">
+        <entry file="file://$PROJECT_DIR$/xttblog-cloud-producer/src/main/java/com/xttblog/XttblogProducerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="111">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xttblog-cloud-producer2/src/main/java/xttblog/XttblogProducerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/RibbonApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,10 +172,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xttblog-cloud-consumer/src/main/java/com/xttblog/service/CalRemoteService.java">
+        <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/controller/RibbonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="226">
+              <caret line="22" column="20" selection-start-line="14" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,7 +184,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xttblog-cloud-consumer/src/main/java/com/xttblog/service/CalService.java">
+        <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/controller/service/CalService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="1" />
@@ -176,10 +193,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xttblog-cloud-consumer/src/main/java/com/xttblog/service/CalServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/controller/service/impl/CalServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="407">
+              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,43 +205,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xttblog-cloud-consumer/src/main/java/com/xttblog/XttblogConsumerApplication.java">
+        <entry file="file://$PROJECT_DIR$/xttblog-cloud-producer2/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state>
+              <caret selection-end-line="12" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xttblog-cloud-producer/src/main/java/com/xttblog/XttblogProducerApplication.java">
+        <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xttblog-cloud-consumer/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="40" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xttblog-cloud-producer/src/main/java/com/xttblog/controller/CalController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" selection-start-line="12" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="42">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -320,6 +327,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,51 +337,10 @@
               <item name="xttblog-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="xttblog-cloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xttblog-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xttblog-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="xttblog-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xttblog-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xttblog-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="xttblog-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xttblog-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xttblog-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="xttblog-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xttblog-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xttblog-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="xttblog-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xttblog-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xttblog-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="xttblog-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xttblog-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,7 +352,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533696859301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533789011494" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -411,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FeignTest">
+  <component name="RunManager" selected="Spring Boot.RibbonApplication">
     <configuration name="FeignTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xttblog.FeignTest" />
       <module name="xttblog-feign-github" />
@@ -439,28 +408,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XttblogConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xttblog-cloud-consumer" />
+    <configuration name="RibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xttblog-cloud-ribbon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xttblog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xttblog.XttblogConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XttblogConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xttblog-cloud-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xttblog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="xttblog.XttblogConsumerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xttblog.RibbonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -478,20 +434,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XttblogProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xttblog-cloud-producer2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xttblog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xttblog.XttblogProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.XttblogConsumerApplication" />
-      <item itemvalue="Spring Boot.XttblogConsumerApplication (1)" />
       <item itemvalue="Spring Boot.XttblogProducerApplication (1)" />
       <item itemvalue="Application.FeignTest" />
+      <item itemvalue="Spring Boot.XttblogProducerApplication" />
+      <item itemvalue="Spring Boot.RibbonApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FeignTest" />
-        <item itemvalue="Spring Boot.XttblogConsumerApplication (1)" />
+        <item itemvalue="Spring Boot.RibbonApplication" />
+        <item itemvalue="Spring Boot.XttblogProducerApplication" />
         <item itemvalue="Spring Boot.XttblogProducerApplication (1)" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
-        <item itemvalue="Spring Boot.XttblogConsumerApplication" />
+        <item itemvalue="Application.FeignTest" />
       </list>
     </recent_temporary>
   </component>
@@ -516,8 +485,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39876000" />
-    <option name="totallyTimeSpent" value="25011000" />
+    <option name="totallyTimeSpent" value="29809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,11 +497,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="790" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24034335" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24034335" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -546,8 +514,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.25953078" />
       <window_info anchor="bottom" id="Run" order="5" />
-      <window_info active="true" anchor="bottom" id="Debug" order="6" visible="true" weight="0.46187684" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.46187684" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.46074075" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.3289855" />
@@ -574,83 +541,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfCancelSailOrderResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfCancelSailOrderRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="43" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server-two/src/main/java/com/xttblog/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="43" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="43" selection-end-column="19" />
-        <state relative-caret-position="201">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server-three/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        <state relative-caret-position="209">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server-three/src/main/resources/application-one.yml" />
-    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server-three/src/main/java/com/xttblog/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server-two/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="941">
-          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server-three/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="18" column="3" lean-forward="true" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/util/Md5Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -669,18 +559,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1045">
           <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-        <state relative-caret-position="178">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/config/SfExpressProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/config/SfExpressProperties.java" />
     <entry file="file://$PROJECT_DIR$/xttblog-cloud-smsl/src/main/java/com/xttblog/model/SfReserveField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -713,8 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        <state relative-caret-position="247">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -743,8 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        <state relative-caret-position="304">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -762,17 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
-        <state relative-caret-position="190">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server/src/main/java/com/xttblog/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        <state relative-caret-position="362">
-          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -804,25 +671,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-feign-baidu/src/main/java/com/xttblog/BaiduRemoteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-feign-baidu/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-feign-baidu/src/main/java/com/xttblog/BaiduRemoteService.java" />
+    <entry file="file://$PROJECT_DIR$/xttblog-feign-baidu/pom.xml" />
     <entry file="file://$PROJECT_DIR$/xttblog-feign-github/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -834,9 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,11 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        <state relative-caret-position="163">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -878,13 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="12" selection-start-line="12" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xttblog-cloud-producer/src/main/java/com/xttblog/XttblogProducerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -916,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -933,11 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        <state relative-caret-position="78">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -952,6 +779,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="788" column="54" selection-start-line="788" selection-start-column="54" selection-end-line="788" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-eureka-server/src/main/java/com/xttblog/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-cloud-producer/src/main/java/com/xttblog/XttblogProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-cloud-producer2/src/main/java/xttblog/XttblogProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-cloud-producer2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/controller/RibbonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="22" column="20" selection-start-line="14" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/controller/service/CalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/controller/service/impl/CalServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/src/main/java/com/xttblog/RibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xttblog-cloud-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>

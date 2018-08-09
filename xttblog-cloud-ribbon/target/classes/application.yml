@@ -1,0 +1,13 @@
+server:
+  port: 7080
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+
+spring:
+  application:
+    name: xttblog-cloud-ribbon
