@@ -20,6 +20,6 @@ Spring Cloud使用的各种示例，以最简单、最实用为标准
 > 如果大家想了解关于springcloud的其它方面应用，也可以以[issues](https://github.com/xmt1139057136/com.xttblog-cloud/issues)的形式反馈给我，我后续来完善。
 
 
-![](http://ocuzluml6.bkt.clouddn.com/com.xttblog.jpg)
+![](http://ocuzluml6.bkt.clouddn.com/xttblog.jpg)
 
-想进群的朋友，请关注业余草微信公众号，添加助理微信好友，回复：“com.xttblog”关键字拉你进群。
+想进群的朋友，请关注业余草微信公众号，添加助理微信好友，回复：“xttblog”关键字拉你进群。
