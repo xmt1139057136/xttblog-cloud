@@ -12,12 +12,16 @@
         <module name="xttblog-cloud-producer2" />
         <module name="xttblog-cloud-ribbon" />
         <module name="xttblog-cloud-smsl" />
+        <module name="xttblog-cloud-zuul" />
+        <module name="xttblog-config-server" />
         <module name="xttblog-eureka-client" />
         <module name="xttblog-eureka-server" />
         <module name="xttblog-eureka-server-three" />
         <module name="xttblog-eureka-server-two" />
         <module name="xttblog-feign-github" />
         <module name="xttblog-feign-hystrix" />
+        <module name="xttblog-hystrix-dashboard" />
+        <module name="xttblog-hystrix-turbine" />
         <module name="xttblog-ribbon-hystrix" />
       </profile>
     </annotationProcessing>
@@ -28,6 +32,8 @@
       <module name="xttblog-cloud-producer2" target="1.6" />
       <module name="xttblog-cloud-ribbon" target="1.8" />
       <module name="xttblog-cloud-smsl" target="1.8" />
+      <module name="xttblog-cloud-zuul" target="1.6" />
+      <module name="xttblog-config-server" target="1.6" />
       <module name="xttblog-eureka-client" target="1.6" />
       <module name="xttblog-eureka-server" target="1.6" />
       <module name="xttblog-eureka-server-three" target="1.6" />
@@ -35,6 +41,8 @@
       <module name="xttblog-feign-baidu" target="1.5" />
       <module name="xttblog-feign-github" target="1.5" />
       <module name="xttblog-feign-hystrix" target="1.6" />
+      <module name="xttblog-hystrix-dashboard" target="1.6" />
+      <module name="xttblog-hystrix-turbine" target="1.6" />
       <module name="xttblog-ribbon-hystrix" target="1.8" />
     </bytecodeTargetLevel>
   </component>

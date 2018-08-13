@@ -1,0 +1,17 @@
+server:
+  port: 8777
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+
+spring:
+  application:
+    name: xttblog-hystrix-dashboard
+
+feign:
+  hystrix:
+    enabled: true

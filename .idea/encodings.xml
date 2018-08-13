@@ -7,12 +7,16 @@
     <file url="file://$PROJECT_DIR$/xttblog-cloud-producer2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-cloud-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-cloud-smsl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xttblog-cloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xttblog-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-eureka-server-three" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-eureka-server-two" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-feign-github" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-feign-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xttblog-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xttblog-hystrix-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-ribbon-hystrix" charset="UTF-8" />
   </component>
 </project>

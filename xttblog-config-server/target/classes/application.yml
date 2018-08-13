@@ -1,0 +1,21 @@
+server:
+  port: 8877
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+
+spring:
+  application:
+    name: xttblog-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xmt1139057136/xttblog-cloud
+          username:
+          password:
+          search-paths: xttblog-cloud-config

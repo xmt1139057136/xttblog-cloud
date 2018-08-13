@@ -24,13 +24,13 @@ public class CalServiceImpl implements CalService {
 
     @Override
     public Integer add(Integer a, Integer b) {
-        String reqURL = "http://com.xttblog-cloud-producer/cal/add?a=" + a + "&b=" + b;
+        String reqURL = "http://xttblog-cloud-producer/cal/add?a=" + a + "&b=" + b;
         test();
         return restTemplate.getForEntity(reqURL, Integer.class).getBody();
     }
 
     private void test(){
-        ServiceInstance serviceInstance = loadBalancerClient.choose("com.xttblog-cloud-producer");
+        ServiceInstance serviceInstance = loadBalancerClient.choose("xttblog-cloud-producer");
         System.out.println("Host：" + serviceInstance.getHost()
                 + "，ServiceId：" + serviceInstance.getServiceId()
                 + "，Port：" + serviceInstance.getPort());
