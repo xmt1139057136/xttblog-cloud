@@ -12,7 +12,8 @@ Spring Cloud使用的各种示例，以最简单、最实用为标准
 - [Spring Cloud 教程第五章 Feign 的声明式服务调用与负载均衡](http://www.com.xttblog.com/?p=2970)：Spring Cloud 教程第五章 
 - [Spring Cloud 教程第六章 Fegin 的默认配置、继承、压缩、日志等高级用法教程](http://www.com.xttblog.com/?p=2972)：Spring Cloud 教程第六章 
 - [Spring Cloud 教程第七章 Ribbon 的负载均衡服务调用与 Feign 的区别](http://www.com.xttblog.com/?p=2974)：Spring Cloud 教程第七章
-- [Spring Cloud 教程第八章 启用 Feign 的断路器 Hystrix 功能]()：Spring Cloud 教程第八章
+- [Spring Cloud 教程第八章 启用 Feign 的断路器 Hystrix 功能](https://www.xttblog.com/?p=2976)：Spring Cloud 教程第八章
+- [Spring Cloud 教程第九章 Ribbon 整合断路器 Hystrix](http://www.xttblog.com/?p=2978)：Spring Cloud 教程第九章
 
 - 未完待续......
 

@@ -9,12 +9,16 @@
       <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-producer2/xttblog-cloud-producer2.iml" filepath="$PROJECT_DIR$/xttblog-cloud-producer2/xttblog-cloud-producer2.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-ribbon/xttblog-cloud-ribbon.iml" filepath="$PROJECT_DIR$/xttblog-cloud-ribbon/xttblog-cloud-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-smsl/xttblog-cloud-smsl.iml" filepath="$PROJECT_DIR$/xttblog-cloud-smsl/xttblog-cloud-smsl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-zuul/xttblog-cloud-zuul.iml" filepath="$PROJECT_DIR$/xttblog-cloud-zuul/xttblog-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xttblog-config-server/xttblog-config-server.iml" filepath="$PROJECT_DIR$/xttblog-config-server/xttblog-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-eureka-client/xttblog-eureka-client.iml" filepath="$PROJECT_DIR$/xttblog-eureka-client/xttblog-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-eureka-server/xttblog-eureka-server.iml" filepath="$PROJECT_DIR$/xttblog-eureka-server/xttblog-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-eureka-server-three/xttblog-eureka-server-three.iml" filepath="$PROJECT_DIR$/xttblog-eureka-server-three/xttblog-eureka-server-three.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-eureka-server-two/xttblog-eureka-server-two.iml" filepath="$PROJECT_DIR$/xttblog-eureka-server-two/xttblog-eureka-server-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-feign-github/xttblog-feign-github.iml" filepath="$PROJECT_DIR$/xttblog-feign-github/xttblog-feign-github.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-feign-hystrix/xttblog-feign-hystrix.iml" filepath="$PROJECT_DIR$/xttblog-feign-hystrix/xttblog-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xttblog-hystrix-dashboard/xttblog-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/xttblog-hystrix-dashboard/xttblog-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xttblog-hystrix-turbine/xttblog-hystrix-turbine.iml" filepath="$PROJECT_DIR$/xttblog-hystrix-turbine/xttblog-hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-ribbon-hystrix/xttblog-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/xttblog-ribbon-hystrix/xttblog-ribbon-hystrix.iml" />
     </modules>
   </component>
