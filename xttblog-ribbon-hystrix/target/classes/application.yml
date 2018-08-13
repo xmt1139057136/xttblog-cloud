@@ -10,4 +10,4 @@ eureka:
 
 spring:
   application:
-    name: com.xttblog-ribbon-hystrix
+    name: xttblog-ribbon-hystrix

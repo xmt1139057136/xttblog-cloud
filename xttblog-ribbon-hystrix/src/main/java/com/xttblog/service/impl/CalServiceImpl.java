@@ -27,7 +27,7 @@ public class CalServiceImpl implements CalService {
     //指定断路后的回调方法（回调方法必须与原方法参数类型相同、返回值类型相同、方法名可以不同）
     @HystrixCommand(fallbackMethod="hystrixFallback")
     public Integer add(Integer a, Integer b) {
-        String reqURL = "http://com.xttblog-cloud-producer/cal/add?a=" + a + "&b=" + b;
+        String reqURL = "http://xttblog-cloud-producer/cal/add?a=" + a + "&b=" + b;
         test();
         return restTemplate.getForEntity(reqURL, Integer.class).getBody();
     }
@@ -38,7 +38,7 @@ public class CalServiceImpl implements CalService {
     }
 
     private void test(){
-        ServiceInstance serviceInstance = loadBalancerClient.choose("com.xttblog-cloud-producer");
+        ServiceInstance serviceInstance = loadBalancerClient.choose("xttblog-cloud-producer");
         System.out.println("Host：" + serviceInstance.getHost()
                 + "，ServiceId：" + serviceInstance.getServiceId()
                 + "，Port：" + serviceInstance.getPort());
