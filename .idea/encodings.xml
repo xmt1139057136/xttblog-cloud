@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/xttblog-cloud-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-cloud-smsl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-cloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xttblog-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xttblog-eureka-server" charset="UTF-8" />
