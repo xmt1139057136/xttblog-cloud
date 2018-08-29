@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-ribbon/xttblog-cloud-ribbon.iml" filepath="$PROJECT_DIR$/xttblog-cloud-ribbon/xttblog-cloud-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-smsl/xttblog-cloud-smsl.iml" filepath="$PROJECT_DIR$/xttblog-cloud-smsl/xttblog-cloud-smsl.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-cloud-zuul/xttblog-cloud-zuul.iml" filepath="$PROJECT_DIR$/xttblog-cloud-zuul/xttblog-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xttblog-config-client/xttblog-config-client.iml" filepath="$PROJECT_DIR$/xttblog-config-client/xttblog-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-config-server/xttblog-config-server.iml" filepath="$PROJECT_DIR$/xttblog-config-server/xttblog-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-eureka-client/xttblog-eureka-client.iml" filepath="$PROJECT_DIR$/xttblog-eureka-client/xttblog-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/xttblog-eureka-server/xttblog-eureka-server.iml" filepath="$PROJECT_DIR$/xttblog-eureka-server/xttblog-eureka-server.iml" />

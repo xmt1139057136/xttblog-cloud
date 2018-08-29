@@ -15,7 +15,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xmt1139057136/xttblog-cloud
-          username:
-          password:
+          uri: https://github.com/xmt1139057136/xttblog-cloud.git
+#          username:
+#          password:
           search-paths: xttblog-cloud-config

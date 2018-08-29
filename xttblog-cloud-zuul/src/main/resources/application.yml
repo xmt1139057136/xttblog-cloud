@@ -11,3 +11,8 @@ eureka:
 spring:
   application:
     name: xttblog-cloud-zuul
+
+#zuul:
+#  FormBodyWrapperFilter:
+#    pre:
+#      disable: true

@@ -13,6 +13,7 @@
         <module name="xttblog-cloud-ribbon" />
         <module name="xttblog-cloud-smsl" />
         <module name="xttblog-cloud-zuul" />
+        <module name="xttblog-config-client" />
         <module name="xttblog-config-server" />
         <module name="xttblog-eureka-client" />
         <module name="xttblog-eureka-server" />
@@ -33,6 +34,7 @@
       <module name="xttblog-cloud-ribbon" target="1.8" />
       <module name="xttblog-cloud-smsl" target="1.8" />
       <module name="xttblog-cloud-zuul" target="1.6" />
+      <module name="xttblog-config-client" target="1.6" />
       <module name="xttblog-config-server" target="1.6" />
       <module name="xttblog-eureka-client" target="1.6" />
       <module name="xttblog-eureka-server" target="1.6" />

@@ -1,0 +1,19 @@
+server:
+  port: 8876
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+
+spring:
+  application:
+    name: xttblog
+  cloud:
+    config:
+      label: master
+      profile: dev
+      # 添加zuul 的注意，这里配zuul的地址进行转发
+      uri: http://localhost:8877/
