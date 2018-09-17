@@ -24,7 +24,9 @@
         <option value="$PROJECT_DIR$/xttblog-cloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/xttblog-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/xttblog-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/xttblog-eureka-serverc-n/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

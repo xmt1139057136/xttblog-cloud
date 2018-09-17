@@ -1,0 +1,63 @@
+#server:
+##  port: 8761
+##
+##eureka:
+##  instance:
+##    hostname: localhost
+##  client:
+##    registerWithEureka: false
+##    fetchRegistry: false
+##    serviceUrl:
+##      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+##
+##spring:
+##  application:
+##    name: xttblog-eureka-server
+spring:
+  profiles:
+    active: one
+---
+spring:
+  application:
+    name: xttblog-eureka-server
+  profiles: one
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: one
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://two:8762/eureka/,http://three:8763/eureka/
+---
+spring:
+  application:
+    name: xttblog-eureka-server
+  profiles: two
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: two
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://one:8761/eureka/,http://three:8763/eureka/
+---
+spring:
+  application:
+    name: xttblog-eureka-server
+  profiles: three
+server:
+  port: 8763
+eureka:
+  instance:
+    hostname: three
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://one:8761/eureka/,http://two:8763/eureka/
