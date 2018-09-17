@@ -27,6 +27,7 @@ Spring Cloud使用的各种示例，以最简单、最实用为标准
 - [Spring Cloud 教程第十一章 turbine 对 Hystrix 的集群监控](https://www.xttblog.com/?p=2986)：Spring Cloud 教程第十一章
 - [Spring Cloud 教程第十二章 zuul(API服务网关)使用教程](https://www.xttblog.com/?p=2990)：Spring Cloud 教程第十二章
 - [Spring Cloud 教程第十三章 spring-cloud-config-server使用教程](http://www.xttblog.com/?p=3021)：Spring Cloud 教程第十三章
+- [Spring Cloud 教程第十四章 spring-cloud-starter-config使用教程](http://www.xttblog.com/?p=3023)：Spring Cloud 教程第十四章
 
 - 未完待续......
 
