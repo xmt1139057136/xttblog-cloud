@@ -19,6 +19,7 @@
         <module name="xttblog-eureka-server" />
         <module name="xttblog-eureka-server-three" />
         <module name="xttblog-eureka-server-two" />
+        <module name="xttblog-eureka-serverc-n" />
         <module name="xttblog-feign-github" />
         <module name="xttblog-feign-hystrix" />
         <module name="xttblog-hystrix-dashboard" />
@@ -40,6 +41,7 @@
       <module name="xttblog-eureka-server" target="1.6" />
       <module name="xttblog-eureka-server-three" target="1.6" />
       <module name="xttblog-eureka-server-two" target="1.6" />
+      <module name="xttblog-eureka-serverc-n" target="1.6" />
       <module name="xttblog-feign-baidu" target="1.5" />
       <module name="xttblog-feign-github" target="1.5" />
       <module name="xttblog-feign-hystrix" target="1.6" />
